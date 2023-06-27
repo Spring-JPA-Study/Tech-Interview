@@ -2,19 +2,20 @@
 
 ## 01. 스프링 입문
 
-### ❔[1. SOLID란 무엇인가?](#1-solid란-무엇인가)
-### ❔[2. ](#❕2)
-### ❔[3. ](#)
-### ❔[4. ](#)
-### ❔[5. ](#)
-### ❔[6. ](#)
+#### [1. SOLID란 무엇인가?](#1-solid란-무엇인가-1)
+#### [2. ](#❕2)
+#### [3. ](#)
+#### [4. ](#)
+#### [5. ](#)
+#### [6. ](#)
+
 
 ---
 ## 모범답안
 
-### 1. SOLID란 무엇인가?
+#### 1. SOLID란 무엇인가?
 
-<details> <summary>답</summary> <div markdown="1">  
+<details> <summary>1. 모범답안 </summary> <div markdown="1">  
 
 
   ```
@@ -42,11 +43,10 @@
         - 상위 모듈은 하위 모듈에 의존해서는 안되고 둘 다 추상화에 의존해야 한다
 
 </div> </details>
-<br>
 
 
-1-1. 다음 코드는 SOLID원칙중 어떤 원칙을 위반하는가?
-```
+
+```java
 public class MemberServiceImpl implements MemberService {
 
     private final MemberRepository memberRepository = new MemoryMemberRepository();
@@ -54,7 +54,7 @@ public class MemberServiceImpl implements MemberService {
 }
 ```
 
-<details> <summary>답</summary> <div markdown="1">  
+<details> <summary>1-1. 위 코드는 SOLID원칙중 어떤 원칙을 위반하는가?</summary> <div markdown="1">  
 
 
   ```
@@ -68,12 +68,11 @@ public class MemberServiceImpl implements MemberService {
     이는 추후 변경이 있을 때 문제가 되는 부분으로 DIP를 위반한다.
 
 </div> </details>
-<br>
 
 
-1-2. spring은 DIP를 제공하고 있는데, 왜 DIP가 필요할까?
 
-<details> <summary>답</summary> <div markdown="1">  
+
+<details> <summary>1-2. spring은 DIP를 제공하고 있는데, 왜 DIP가 필요할까?</summary> <div markdown="1">  
 
 
   ```

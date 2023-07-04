@@ -89,3 +89,55 @@ public class MemberServiceImpl implements MemberService {
 
 <br>
 <br>
+
+#### 2. 스프링 컨테이너란 무엇인가?
+
+<details> <summary>1. 모범답안 </summary> <div markdown="1">  
+
+
+  ```
+  스프링 컨테이너는 스프링에서 자바 객체들을 관리하는 공간을 말합니다.
+  ```
+
+  ##### 해설
+
+    자바 객체를 스프링에선 빈(Bean)이라고 하는데, 
+    스프링 컨테이너에서는 이 빈의 생성부터 소멸까지를 개발자 대신 관리해주는 곳이라고 할 수 있습니다.
+
+</div> </details>
+
+
+
+<details> <summary>1-1. 컨테이너의 종류 두가지를 말하시오</summary> <div markdown="1">  
+
+
+  ```
+  BeanFactory, ApplicationContext
+  ```
+
+  ##### 해설
+
+    ApplicationContext컨테이너가 BeanFactory의 기능을 포괄하면서 
+    추가적인 기능을 제공하기 때문에 대부분의 경우에는 ApplicationContext를 사용합니다.
+
+</div> </details>
+
+
+
+
+<details> <summary>1-2. 스프링 빈을 등록하는 방법 두가지를 말하시오</summary> <div markdown="1">  
+
+
+  ```
+  컴포넌트 스캔, 스프링 빈 직접 등록 
+  ```
+
+  ##### 해설
+
+    1. 컴포넌트 스캔
+        @Component 사용
+        @Controller, @Service, @Repository 등도 인터페이스로 @Component를 받기 때문에 컴포넌트 등록 가능
+    2. 스프링 빈 직접 등록 
+        @Configuration, @Bean 어노테이션으로 가능
+
+</div> </details>

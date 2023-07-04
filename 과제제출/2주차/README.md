@@ -47,16 +47,19 @@
 
 
 
-<details> <summary>1-2. </summary> <div markdown="1">  
+<details> <summary>1-2. @Primary와 @Qualifier 중 무엇이 더 우선순위가 높은가?</summary> <div markdown="1">  
 
 
   ```
-  ~~~
+  @Qualifier 가 우선권이 더 높습니다. 
   ```
 
   ##### 해설
+    스프링은 기본적으로 자동보다는 수동이, 넓은 범위의 선택권 보다는 좁은 범위의 선택권이 우선순위가 높다. 
 
-    어쩌구저쩌구
+    @Primary는 별도의 빈 옵션을 지정하지 않아도 기본값으로 작동하는 반면, @Qualifier는 매우 상세하게 작동한다. 
+    
+    따라서 @Qualifier가 우선권을 더 높게 가진다. 
 
 </div> </details>
 

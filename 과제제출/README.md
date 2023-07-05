@@ -61,7 +61,7 @@
 
 
 
-<details> <summary>아무런 설정을 하지않고 singleton 스코프의 빈이 prototype 스코프의 빈을 주입받는경우 prototype빈이 prototype 답게 동작하지 않는 문제가 생기는데 어떻게 해결 가능한가</summary> <div markdown="1">  
+<details> <summary>1-2. 아무런 설정을 하지않고 singleton 스코프의 빈이 prototype 스코프의 빈을 주입받는경우 prototype빈이 prototype 답게 동작하지 않는 문제가 생기는데 어떻게 해결 가능한가</summary> <div markdown="1">  
 
 
   ```

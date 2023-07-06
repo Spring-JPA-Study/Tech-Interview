@@ -1,7 +1,7 @@
 ---
-name: 0. 모의 면접 질문
-about: Describe this issue template's purpose here.
-title: ''
+name: 모의면접 질문 템플릿
+about: 강의에서 배운 내용을 바탕으로 모의 면접 질문과 모범답안을 작성해주세요
+title: '0. 모의 면접 질문'
 labels: ''
 assignees: ''
 

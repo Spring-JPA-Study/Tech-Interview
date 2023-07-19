@@ -6,8 +6,10 @@
 <br/>
 
 ## 📝 스터디 방식
+- 배운 내용을 정리하여 [구글 드라이브](https://docs.google.com/spreadsheets/d/1vCysVH4vn1kyFobbpk3Kk0dWNSFmiT9xw_J1It-1YLA/edit?usp=sharing)에 제출합니다.
 - 주 1회 (수) 발표 및 토의를 진행합니다.
 - 발표가 끝나면 모의 면접을 진행합니다.
+
 <br/>
 
 ## 📁 커리큘럼 
